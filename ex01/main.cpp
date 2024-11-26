@@ -1,7 +1,14 @@
 #include "Zombie.hpp"
 
-int main(int ac, char **av)
+int main()
 {
-    Zombie* zombieHorde = Zombie::zombieHorde(std::atoi(av[1]), "fuuha");
+    int N;
+
+    N = 5;
+    Zombie* zombieHorde = Zombie::zombieHorde(N, "fuuha");
+    if (!zombieHorde)
+        return (0);
+    for (int i = 0 ; i < N ; i++)
+            zombieHorde[i].announce();
     delete [] zombieHorde;
 }

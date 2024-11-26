@@ -3,8 +3,7 @@
 
 Weapon::Weapon()
 {
-	std::cout << "Weapon constuctor have been called" << std::endl;
-	std::cout << "Constructed weapon name is " << this->getType() << std::endl;
+    this->_type = "Unnamed Weapon";
 }
 
 std::string const & Weapon::getType() const
@@ -20,20 +19,5 @@ void	Weapon::setType(const std::string& newType)
 Weapon::Weapon(const std::string& newType)
 {
 	this->_type = newType;
-	std::cout << "Weapon called" << std::endl;
 }
 
-// copy constructor
-
-Weapon::Weapon(Weapon& rhs)
-{
-	std::cout << "copy constructor of weapon has been called" << std::endl;
-	this->_type = rhs.getType();
-}
-
-Weapon& Weapon::operator=(Weapon& rhs)
-{
-	std::cout << "copy assignemt of weapon has been called" << std::endl;
-	this->_type = rhs.getType();
-	return *this;
-}

@@ -15,4 +15,9 @@ class Zombie
 	static Zombie* zombieHorde(int N, std::string name); // static ?
 	void	randomChump(std::string name); // static ?
 	void	announce(void) const;
+    // Setters
+    void setName(std::string newName);
+
+    // Getters
+    std::string getName();
 };

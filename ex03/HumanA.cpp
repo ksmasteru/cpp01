@@ -3,8 +3,7 @@
 #include <iostream>
 
 HumanA::HumanA(const std::string& name, Weapon& newWeapon) : _weapon(newWeapon)
-{															//not copy asssginnemt nor 
-														// copy constructor called
+{				 // Simple value initialisatioon _weapon = newWeapon;
  	this->_name = name;
 }
 

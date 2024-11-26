@@ -11,6 +11,4 @@ class Weapon
 		Weapon();
 		std::string const &getType() const;
 		void	setType(const std::string& newType);
-		Weapon(Weapon& rhs);
-		Weapon& operator=(Weapon& rhs);
 };

@@ -1,18 +1,20 @@
 #include "HumanB.hpp"
 #include "HumanA.hpp"
 #include "Weapon.hpp"
+#include <iostream>
 
 int main()
 {
-    Weapon club("iron club");
-    HumanA omar("omar", club);
-    club.setType("blastic club");
-    omar.attack();
-    HumanB alex("alex");
-    alex.setWeapon(club);
-    club.setType("soft hand");
-    alex.attack();
-    Weapon cluba("silicon club");
-    omar.attack();
-    std::cout << club.getType() << std::endl;
+    /*Weapon club = Weapon("crude spiked club");
+    HumanA bob("Bob", club);
+    bob.attack();
+    club.setType("some other type of club");
+    bob.attack();*/
+    Weapon club = Weapon("crude spiked club");
+    HumanB jim("Jim");
+    jim.setWeapon(club);
+    jim.attack();
+    club.setType("some other type of club");
+    jim.attack();
+    return (0);
 }

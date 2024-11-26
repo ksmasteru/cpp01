@@ -1,5 +1,6 @@
 #include "HumanB.hpp"
 #include "Weapon.hpp"
+#include <iostream>
 
 HumanB::HumanB(const std::string& newName)
 {
@@ -18,7 +19,7 @@ void    HumanB::attack() const
     if (this->_weapon)
         std::cout << this->_weapon->getType() << std::endl;
     else
-        std::cout << "Arm" << std::endl;
+        std::cout << "Fist" << std::endl;
 }
 
 void    HumanB::setWeapon(Weapon& new_weapon)
