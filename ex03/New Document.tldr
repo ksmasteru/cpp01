@@ -1,0 +1,1747 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 2,
+		"sequences": {
+			"com.tldraw.store": 4,
+			"com.tldraw.asset": 1,
+			"com.tldraw.camera": 1,
+			"com.tldraw.document": 2,
+			"com.tldraw.instance": 25,
+			"com.tldraw.instance_page_state": 5,
+			"com.tldraw.page": 1,
+			"com.tldraw.instance_presence": 5,
+			"com.tldraw.pointer": 1,
+			"com.tldraw.shape": 4,
+			"com.tldraw.asset.bookmark": 2,
+			"com.tldraw.asset.image": 5,
+			"com.tldraw.asset.video": 5,
+			"com.tldraw.shape.group": 0,
+			"com.tldraw.shape.text": 2,
+			"com.tldraw.shape.bookmark": 2,
+			"com.tldraw.shape.draw": 2,
+			"com.tldraw.shape.geo": 9,
+			"com.tldraw.shape.note": 8,
+			"com.tldraw.shape.line": 5,
+			"com.tldraw.shape.frame": 0,
+			"com.tldraw.shape.arrow": 5,
+			"com.tldraw.shape.highlight": 1,
+			"com.tldraw.shape.embed": 4,
+			"com.tldraw.shape.image": 4,
+			"com.tldraw.shape.video": 2,
+			"com.tldraw.binding.arrow": 0
+		}
+	},
+	"records": [
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"x": 142.52729668674698,
+			"y": 150.94983057228922,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:njt1t8Fwl-widkwQUgD6r",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 104.328125,
+				"text": "HumanA",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"x": 415,
+			"y": 141.8046875,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:kqAuiTTtDGtwDgpNGpfqG",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 100.515625,
+				"text": "HumanB",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a21aI",
+			"typeName": "shape"
+		},
+		{
+			"x": 139,
+			"y": 302.8046875,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:tQPKGueBGJIGeSm78_aCb",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 98.328125,
+				"text": "Weapon",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a3CKx",
+			"typeName": "shape"
+		},
+		{
+			"x": 255,
+			"y": 373,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:xs1TBXrIXNKidsW8oD4qu",
+			"type": "arrow",
+			"props": {
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": -12,
+					"y": -100
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a3eRS",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:OoRFIXWrU5GmtYTKSwek6",
+			"type": "arrow",
+			"fromId": "shape:xs1TBXrIXNKidsW8oD4qu",
+			"toId": "shape:njt1t8Fwl-widkwQUgD6r",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.28755429084918377,
+					"y": 0.8396044380125423
+				},
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"meta": {},
+			"id": "binding:IGfIxj6--QfzGdGs5gIw8",
+			"type": "arrow",
+			"fromId": "shape:xs1TBXrIXNKidsW8oD4qu",
+			"toId": "shape:tQPKGueBGJIGeSm78_aCb",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.4678213888447481,
+					"y": 0.1603955619874578
+				},
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 419.1091867469879,
+			"y": 311.222797439759,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Rt4QBNQUnLwXcs9fhx_yY",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 98.328125,
+				"text": "Weapon",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a3iB8",
+			"typeName": "shape"
+		},
+		{
+			"x": 471,
+			"y": 317,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:SBIE_cFZ8HNM_XNsAWFbT",
+			"type": "arrow",
+			"props": {
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": -10,
+					"y": -140
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a55nZ",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:sz80VaRV5LvQIRLMQkWa_",
+			"type": "arrow",
+			"fromId": "shape:SBIE_cFZ8HNM_XNsAWFbT",
+			"toId": "shape:Rt4QBNQUnLwXcs9fhx_yY",
+			"props": {
+				"isPrecise": false,
+				"isExact": true,
+				"normalizedAnchor": {
+					"x": 0.5898617511520737,
+					"y": 0.03690303907380608
+				},
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"meta": {},
+			"id": "binding:Cg-44wsrqNqS7Y_Fcdlgm",
+			"type": "arrow",
+			"fromId": "shape:SBIE_cFZ8HNM_XNsAWFbT",
+			"toId": "shape:kqAuiTTtDGtwDgpNGpfqG",
+			"props": {
+				"isPrecise": true,
+				"isExact": true,
+				"normalizedAnchor": {
+					"x": 0.4775376962536919,
+					"y": 0.8704775687409552
+				},
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 458.5272966867469,
+			"y": 182.52729668674704,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:d7owpNU7JeAgqBMlS2cCg",
+			"type": "draw",
+			"props": {
+				"segments": [
+					{
+						"type": "free",
+						"points": [
+							{
+								"x": 0,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 1,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 2,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 6,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 8,
+								"y": -1,
+								"z": 0.5
+							},
+							{
+								"x": 10,
+								"y": -1,
+								"z": 0.5
+							},
+							{
+								"x": 11,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 9,
+								"y": 2,
+								"z": 0.5
+							},
+							{
+								"x": 6,
+								"y": 2,
+								"z": 0.5
+							},
+							{
+								"x": 4,
+								"y": 2,
+								"z": 0.5
+							},
+							{
+								"x": 1,
+								"y": 2,
+								"z": 0.5
+							},
+							{
+								"x": 1,
+								"y": 1,
+								"z": 0.5
+							},
+							{
+								"x": 2,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 3,
+								"y": -1,
+								"z": 0.5
+							},
+							{
+								"x": 4,
+								"y": -2,
+								"z": 0.5
+							},
+							{
+								"x": 5,
+								"y": -2,
+								"z": 0.5
+							},
+							{
+								"x": 6,
+								"y": -2,
+								"z": 0.5
+							},
+							{
+								"x": 8,
+								"y": -2,
+								"z": 0.5
+							},
+							{
+								"x": 8,
+								"y": -1,
+								"z": 0.5
+							},
+							{
+								"x": 8,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 8,
+								"y": 1,
+								"z": 0.5
+							},
+							{
+								"x": 8,
+								"y": 4,
+								"z": 0.5
+							},
+							{
+								"x": 6,
+								"y": 6,
+								"z": 0.5
+							},
+							{
+								"x": 5,
+								"y": 6,
+								"z": 0.5
+							},
+							{
+								"x": 3,
+								"y": 4,
+								"z": 0.5
+							},
+							{
+								"x": 3,
+								"y": 2,
+								"z": 0.5
+							},
+							{
+								"x": 3,
+								"y": -1,
+								"z": 0.5
+							},
+							{
+								"x": 3,
+								"y": -3,
+								"z": 0.5
+							},
+							{
+								"x": 6,
+								"y": -7,
+								"z": 0.5
+							},
+							{
+								"x": 7,
+								"y": -7,
+								"z": 0.5
+							},
+							{
+								"x": 8,
+								"y": -7,
+								"z": 0.5
+							},
+							{
+								"x": 9,
+								"y": -6,
+								"z": 0.5
+							},
+							{
+								"x": 9,
+								"y": -5,
+								"z": 0.5
+							},
+							{
+								"x": 9,
+								"y": -2,
+								"z": 0.5
+							},
+							{
+								"x": 9,
+								"y": -1,
+								"z": 0.5
+							},
+							{
+								"x": 8,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 7,
+								"y": 1,
+								"z": 0.5
+							},
+							{
+								"x": 6,
+								"y": 1,
+								"z": 0.5
+							},
+							{
+								"x": 5,
+								"y": 1,
+								"z": 0.5
+							},
+							{
+								"x": 4,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 4,
+								"y": -1,
+								"z": 0.5
+							},
+							{
+								"x": 4,
+								"y": -2,
+								"z": 0.5
+							},
+							{
+								"x": 6,
+								"y": -3,
+								"z": 0.5
+							},
+							{
+								"x": 7,
+								"y": -2,
+								"z": 0.5
+							},
+							{
+								"x": 8,
+								"y": -1,
+								"z": 0.5
+							},
+							{
+								"x": 8,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 8,
+								"y": 1,
+								"z": 0.5
+							},
+							{
+								"x": 8,
+								"y": 4,
+								"z": 0.5
+							},
+							{
+								"x": 6,
+								"y": 5,
+								"z": 0.5
+							},
+							{
+								"x": 4,
+								"y": 5,
+								"z": 0.5
+							},
+							{
+								"x": 3,
+								"y": 4,
+								"z": 0.5
+							},
+							{
+								"x": 3,
+								"y": -1,
+								"z": 0.5
+							},
+							{
+								"x": 3,
+								"y": -4,
+								"z": 0.5
+							},
+							{
+								"x": 8,
+								"y": -8,
+								"z": 0.5
+							},
+							{
+								"x": 11,
+								"y": -9,
+								"z": 0.5
+							},
+							{
+								"x": 13,
+								"y": -9,
+								"z": 0.5
+							},
+							{
+								"x": 14,
+								"y": -9,
+								"z": 0.5
+							},
+							{
+								"x": 15,
+								"y": -9,
+								"z": 0.5
+							},
+							{
+								"x": 16,
+								"y": -7,
+								"z": 0.5
+							},
+							{
+								"x": 16,
+								"y": -5,
+								"z": 0.5
+							},
+							{
+								"x": 13,
+								"y": -1,
+								"z": 0.5
+							},
+							{
+								"x": 9,
+								"y": 1,
+								"z": 0.5
+							},
+							{
+								"x": 5,
+								"y": 2,
+								"z": 0.5
+							},
+							{
+								"x": 1,
+								"y": 2,
+								"z": 0.5
+							},
+							{
+								"x": 0,
+								"y": 2,
+								"z": 0.5
+							},
+							{
+								"x": -4,
+								"y": 2,
+								"z": 0.5
+							},
+							{
+								"x": -5,
+								"y": -2,
+								"z": 0.5
+							},
+							{
+								"x": -5,
+								"y": -5,
+								"z": 0.5
+							},
+							{
+								"x": -5,
+								"y": -7,
+								"z": 0.5
+							},
+							{
+								"x": -4,
+								"y": -8,
+								"z": 0.5
+							},
+							{
+								"x": -2,
+								"y": -7,
+								"z": 0.5
+							},
+							{
+								"x": 0,
+								"y": -5,
+								"z": 0.5
+							},
+							{
+								"x": 0,
+								"y": -2,
+								"z": 0.5
+							},
+							{
+								"x": 0,
+								"y": -1,
+								"z": 0.5
+							},
+							{
+								"x": 1,
+								"y": -2,
+								"z": 0.5
+							},
+							{
+								"x": 2,
+								"y": -4,
+								"z": 0.5
+							},
+							{
+								"x": 2,
+								"y": -5,
+								"z": 0.5
+							},
+							{
+								"x": 3,
+								"y": -6,
+								"z": 0.5
+							},
+							{
+								"x": 4,
+								"y": -6,
+								"z": 0.5
+							},
+							{
+								"x": 7,
+								"y": -4,
+								"z": 0.5
+							},
+							{
+								"x": 7,
+								"y": -2,
+								"z": 0.5
+							},
+							{
+								"x": 7,
+								"y": -1,
+								"z": 0.5
+							},
+							{
+								"x": 7,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 6,
+								"y": 1,
+								"z": 0.5
+							},
+							{
+								"x": 5,
+								"y": 1,
+								"z": 0.5
+							},
+							{
+								"x": 3,
+								"y": 1,
+								"z": 0.5
+							},
+							{
+								"x": 2,
+								"y": -2,
+								"z": 0.5
+							},
+							{
+								"x": 2,
+								"y": -3,
+								"z": 0.5
+							},
+							{
+								"x": 2,
+								"y": -6,
+								"z": 0.5
+							},
+							{
+								"x": 0,
+								"y": -6,
+								"z": 0.5
+							},
+							{
+								"x": -1,
+								"y": -5,
+								"z": 0.5
+							},
+							{
+								"x": 0,
+								"y": -6,
+								"z": 0.5
+							},
+							{
+								"x": -1,
+								"y": -6,
+								"z": 0.5
+							},
+							{
+								"x": -1,
+								"y": -9,
+								"z": 0.5
+							},
+							{
+								"x": -1,
+								"y": -10,
+								"z": 0.5
+							},
+							{
+								"x": -1,
+								"y": -11,
+								"z": 0.5
+							},
+							{
+								"x": -1,
+								"y": -13,
+								"z": 0.5
+							},
+							{
+								"x": 2,
+								"y": -14,
+								"z": 0.5
+							},
+							{
+								"x": 3,
+								"y": -14,
+								"z": 0.5
+							},
+							{
+								"x": 7,
+								"y": -15,
+								"z": 0.5
+							},
+							{
+								"x": 8,
+								"y": -16,
+								"z": 0.5
+							},
+							{
+								"x": 10,
+								"y": -16,
+								"z": 0.5
+							},
+							{
+								"x": 11,
+								"y": -16,
+								"z": 0.5
+							},
+							{
+								"x": 12,
+								"y": -16,
+								"z": 0.5
+							},
+							{
+								"x": 14,
+								"y": -14,
+								"z": 0.5
+							},
+							{
+								"x": 15,
+								"y": -12,
+								"z": 0.5
+							},
+							{
+								"x": 16,
+								"y": -11,
+								"z": 0.5
+							},
+							{
+								"x": 16,
+								"y": -10,
+								"z": 0.5
+							},
+							{
+								"x": 16,
+								"y": -8,
+								"z": 0.5
+							},
+							{
+								"x": 16,
+								"y": -7,
+								"z": 0.5
+							},
+							{
+								"x": 16,
+								"y": -6,
+								"z": 0.5
+							},
+							{
+								"x": 16,
+								"y": -5,
+								"z": 0.5
+							},
+							{
+								"x": 16,
+								"y": -4,
+								"z": 0.5
+							},
+							{
+								"x": 16,
+								"y": -3,
+								"z": 0.5
+							},
+							{
+								"x": 16,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 16,
+								"y": 2,
+								"z": 0.5
+							},
+							{
+								"x": 16,
+								"y": 4,
+								"z": 0.5
+							},
+							{
+								"x": 15,
+								"y": 6,
+								"z": 0.5
+							},
+							{
+								"x": 14,
+								"y": 6,
+								"z": 0.5
+							},
+							{
+								"x": 13,
+								"y": 6,
+								"z": 0.5
+							},
+							{
+								"x": 10,
+								"y": 6,
+								"z": 0.5
+							},
+							{
+								"x": 6,
+								"y": 3,
+								"z": 0.5
+							},
+							{
+								"x": 4,
+								"y": 1,
+								"z": 0.5
+							},
+							{
+								"x": 4,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 4,
+								"y": -4,
+								"z": 0.5
+							},
+							{
+								"x": 4,
+								"y": -5,
+								"z": 0.5
+							},
+							{
+								"x": 4,
+								"y": -6,
+								"z": 0.5
+							},
+							{
+								"x": 6,
+								"y": -7,
+								"z": 0.5
+							},
+							{
+								"x": 7,
+								"y": -7,
+								"z": 0.5
+							},
+							{
+								"x": 9,
+								"y": -5,
+								"z": 0.5
+							},
+							{
+								"x": 9,
+								"y": -4,
+								"z": 0.5
+							},
+							{
+								"x": 9,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 8,
+								"y": 1,
+								"z": 0.5
+							},
+							{
+								"x": 6,
+								"y": 2,
+								"z": 0.5
+							},
+							{
+								"x": 5,
+								"y": 2,
+								"z": 0.5
+							},
+							{
+								"x": 4,
+								"y": 2,
+								"z": 0.5
+							},
+							{
+								"x": 3,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 3,
+								"y": -2,
+								"z": 0.5
+							},
+							{
+								"x": 3,
+								"y": -4,
+								"z": 0.5
+							},
+							{
+								"x": 3,
+								"y": -5,
+								"z": 0.5
+							}
+						]
+					}
+				],
+				"color": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"isComplete": true,
+				"isClosed": true,
+				"isPen": false,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a66it",
+			"typeName": "shape"
+		},
+		{
+			"x": 528,
+			"y": 57.608040275309975,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:VNef1A-KJXs6RDC26mftZ",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 809.03125,
+				"text": "In which case do you think it would be best to use a pointer to\nWeapon? And a reference to Weapon? Why? Think about it before\nstarting this exercise.",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 0.5080536135038047
+			},
+			"parentId": "page:page",
+			"index": "a785o",
+			"typeName": "shape"
+		},
+		{
+			"x": 572,
+			"y": 214.8046875,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:lIKqujxYaiGe0gYpUqwJD",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 529.890625,
+				"text": "• HumanB may not always have a Weapon,\n whereas HumanA will always be armed.",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a863x",
+			"typeName": "shape"
+		},
+		{
+			"x": 446,
+			"y": 380.8046875,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Z7-7yZwYOyR3sVigFRdLC",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 116.28125,
+				"text": "Weapon*;",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a975Q",
+			"typeName": "shape"
+		},
+		{
+			"x": 130.63648343373495,
+			"y": 377.58631400602405,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:ZDhMmF-N8FPEY-r8jOdi6",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 114.40625,
+				"text": "Weapon&",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aA6AD",
+			"typeName": "shape"
+		},
+		{
+			"x": 129.7829442771084,
+			"y": 78.44117093373495,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:n_jJ5fEXUJrVWxKK_Lutw",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 203.8125,
+				"text": "AGGREGATION!!",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aB3bN",
+			"typeName": "shape"
+		},
+		{
+			"x": 22.091867469879503,
+			"y": -9.215267319277132,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:oFAszJlNtXHd4XiAV09pU",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 392.46875,
+				"text": "Weapon isnt owned  by  Human",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aC8fo",
+			"typeName": "shape"
+		},
+		{
+			"x": 354.7829442771084,
+			"y": 79.44117093373495,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:p3G9KdfeRsM1fAyobm5rJ",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 174.765625,
+				"text": "!= COmpostion",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aD59t",
+			"typeName": "shape"
+		},
+		{
+			"x": 113.12782379518075,
+			"y": 348.1604856927711,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:WyWuQ_AdBUL3kef3bxOD8",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "s",
+				"w": 138.203125,
+				"text": "always armed;",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aEAZf",
+			"typeName": "shape"
+		},
+		{
+			"x": 428.6178463855422,
+			"y": 345.687782379518,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:PjaZe7k4nh1RBs5bgOFqv",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "s",
+				"w": 114.375,
+				"text": "may be null;",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aF64L",
+			"typeName": "shape"
+		},
+		{
+			"x": 91,
+			"y": 547.8515625,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:z4zQYkH5hFO5F66xDr1mT",
+			"type": "text",
+			"props": {
+				"color": "light-green",
+				"size": "s",
+				"w": 488.25,
+				"text": "Reference member have to be initialized on creation",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aGBSm",
+			"typeName": "shape"
+		},
+		{
+			"x": 606,
+			"y": 531,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:9JiDcRECttnmA73b-dqd9",
+			"type": "draw",
+			"props": {
+				"segments": [
+					{
+						"type": "free",
+						"points": [
+							{
+								"x": 0,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 0,
+								"y": 5,
+								"z": 0.5
+							},
+							{
+								"x": 0,
+								"y": 13,
+								"z": 0.5
+							},
+							{
+								"x": 0,
+								"y": 18,
+								"z": 0.5
+							},
+							{
+								"x": 0,
+								"y": 21,
+								"z": 0.5
+							},
+							{
+								"x": 0,
+								"y": 24,
+								"z": 0.5
+							}
+						]
+					}
+				],
+				"color": "light-green",
+				"fill": "none",
+				"dash": "draw",
+				"size": "s",
+				"isComplete": true,
+				"isClosed": false,
+				"isPen": false,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aH61T",
+			"typeName": "shape"
+		},
+		{
+			"x": 606,
+			"y": 583,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:zkpz7mayvOjKbgakyC8HG",
+			"type": "draw",
+			"props": {
+				"segments": [
+					{
+						"type": "free",
+						"points": [
+							{
+								"x": 0,
+								"y": 0,
+								"z": 0.5
+							}
+						]
+					}
+				],
+				"color": "light-green",
+				"fill": "none",
+				"dash": "draw",
+				"size": "s",
+				"isComplete": true,
+				"isClosed": false,
+				"isPen": false,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aI2Wk",
+			"typeName": "shape"
+		},
+		{
+			"x": 159,
+			"y": 461.8515625,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:8tPKLWvyZ2736VYCzZTDn",
+			"type": "text",
+			"props": {
+				"color": "light-green",
+				"size": "s",
+				"w": 437.046875,
+				"text": " Weapon class isnt tied to human class\n and should outlive it / else undefined behavio",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aJ5qr",
+			"typeName": "shape"
+		},
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": 1223.3041704473758,
+			"y": 1373.0119603097965,
+			"lastActivityTimestamp": 1732621725066,
+			"meta": {}
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 875,
+				"h": 903
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 1,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"editingShapeId": "shape:l_tf11o7eE6Qiwf1l4QeI",
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:l_tf11o7eE6Qiwf1l4QeI"
+			],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 99.33476027551593,
+			"y": -140.48353410497714,
+			"z": 0.6547516331813139,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"x": 423.7708960843373,
+			"y": -8.250761488851083,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:QxDYOs9eoOoOMhtNe78yq",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 391.5625,
+				"text": ": its life cycle  should outlive it.",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aK102",
+			"typeName": "shape"
+		},
+		{
+			"x": 303.1144578313253,
+			"y": 130.12828595090792,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:IvdTVrXhs550xxY0mZyZO",
+			"type": "arrow",
+			"props": {
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": -41.23701054216866,
+					"y": 32.07323042168679
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a1dqw",
+			"typeName": "shape"
+		},
+		{
+			"x": 333.6603915662651,
+			"y": 124.01909920392,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:wTQmTxGhtBfIZWN_JOOdh",
+			"type": "arrow",
+			"props": {
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 65.67375753012044,
+					"y": 25.964043674698758
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aL09X",
+			"typeName": "shape"
+		},
+		{
+			"x": 199.2582831325301,
+			"y": 732.4881315834382,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:skdRMG0GzO41p4fE8mB-8",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 384.1875,
+				"text": "Weapon& _weapon = weapon1;",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aM1DP",
+			"typeName": "shape"
+		},
+		{
+			"x": 266.45933734939763,
+			"y": 837.8716029689804,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:yPNeXI4MqlPLyVo6qxFNb",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 270.265625,
+				"text": "_weapon = weapon2;",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aNCG9",
+			"typeName": "shape"
+		},
+		{
+			"x": 530.6816641566265,
+			"y": 817.4117949870526,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:DLZ53TKOysrSUkc_oD3xG",
+			"type": "arrow",
+			"props": {
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 119.12914156626505,
+					"y": -36.655120481927725
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aO8oQ",
+			"typeName": "shape"
+		},
+		{
+			"x": 692.5751129518072,
+			"y": 743.1792083906671,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:e3itcBprCD4BhTnuKd_2O",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 383.59375,
+				"text": "will make Weapon1 = Weapon2",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aP7ri",
+			"typeName": "shape"
+		},
+		{
+			"x": 729.2302334337351,
+			"y": 775.2524388123538,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Ah0FlIsiPr8fFbNRJcUjo",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 319.796875,
+				"text": "calling copy assignement;",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aQ6ez",
+			"typeName": "shape"
+		},
+		{
+			"x": 222.16773343373495,
+			"y": 639.3230336918718,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:_2tmEh_zq7tbDnzlry__-",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 219.625,
+				"text": "Weapon Weapon1;",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aR2SG",
+			"typeName": "shape"
+		},
+		{
+			"x": 350.46065512048193,
+			"y": 872.999426764161,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:2IsdYFgB_Rt3V0IkS-BD-",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 335.6875,
+				"text": "it will affect WEAPON1 too.",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aS7DI",
+			"typeName": "shape"
+		},
+		{
+			"x": 398.56395960400215,
+			"y": 1135.3586282314832,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:nuNKZYR26GlbqgMARIw5p",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 478.359375,
+				"text": "weapon can be upgraded thru settype\nand  humanA must always be armed;",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aT9ys",
+			"typeName": "shape"
+		},
+		{
+			"x": 439.8009701461708,
+			"y": 1228.5237261230495,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:l_tf11o7eE6Qiwf1l4QeI",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 98.765625,
+				"text": "const &.",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aUCNZ",
+			"typeName": "shape"
+		}
+	]
+}
