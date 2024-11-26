@@ -28,10 +28,7 @@ int main(int ac, char **av) // filename s1 s2
         if (line[0] != '\n' && line[0] != '\0') buffer+= '\n';
     }
     if (buffer.length() > 0) // trim last newline
-    {
-        if (buffer[buffer.length() - 1] == '\n')
-            buffer[buffer.length() - 1] = 0;
-    }
+        buffer.resize(buffer.length() - 1);
     ofs << buffer;
     ifs.close();
     ofs.close();
