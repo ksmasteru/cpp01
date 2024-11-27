@@ -13,6 +13,7 @@ int main(int ac, char **av) // filename s1 s2
     std::string buffer;
     std::string word;
     std::string line;
+    std::string to_find = av[2];
     if (!ifs)
     {   std::cerr << "failed to open" << av[1] << std::endl;
         return (1);
@@ -24,8 +25,13 @@ int main(int ac, char **av) // filename s1 s2
     std::ofstream ofs(ofName);
     while (std::getline(ifs, line))
     {
+        line += '\n';
+        if (line.find(to_find)) != std::string::npos)
+        {
+            std::cout << "s1 wasnt found" << to_find << std::endl;
+            ofs << line;
+        }
         buffer += line;
-        if (line[0] != '\n' && line[0] != '\0') buffer+= '\n';
     }
     if (buffer.length() > 0) // trim last newline
         buffer.resize(buffer.length() - 1);
