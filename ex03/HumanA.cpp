@@ -3,7 +3,7 @@
 #include <iostream>
 
 HumanA::HumanA(const std::string& name, Weapon& newWeapon) : _weapon(newWeapon)
-{				 // Simple value initialisatioon _weapon = newWeapon;
+{
  	this->_name = name;
 }
 

@@ -4,7 +4,7 @@
 class HumanA
 {
 	private:
-	Weapon const & _weapon; // should always be armed. ...?
+	Weapon & _weapon; // should always be armed. 
 	std::string _name;
 	
 	public:
