@@ -1,1 +1,11 @@
 https://cplusplus.com/forum/beginner/44787/
+
+returning a ref of a private memeber is dangerous practice
+
+make sure to return  const &;
+
+Weapon waffe("ak47");
+     std::string& name = waffe.getname();
+     std::cout << "name of waffe is " << name << std::endl;
+     name +=  "48"; // !!! changes the name of weapon object too !!
+     std::cout << "new name of waffe is" << waffe.getname() << std::endl;

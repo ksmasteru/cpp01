@@ -47,6 +47,8 @@ int main(int ac, char **av)
 {
        if (ac != 4)
         return (0);
+    if (av[2][0] == 0 || av[3][0] == 0)
+        return (0);
     std::ifstream ifs(av[1]);
     std::string buffer;
     std::string word;

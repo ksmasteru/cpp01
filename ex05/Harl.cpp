@@ -24,15 +24,11 @@ void Harl::error()
 
 void    Harl::complain(std::string level)
 {
-     // poiter to fucntion 
-    void   (Harl::*ptrsToFunc[]) (void);
-    Harl::*ptrsToFunc[] = {&Harl::debug, &Harl::info, &Harl::warning, &Harl::error};
-    std::string complaints [] = {"DEBUG", "INFO", "WARNING", "ERROR"};
+    void (Harl::*ptrtofunc[])(void) = {&Harl::debug, &Harl::info, &Harl::warning, &Harl::error};
+    std::string complaints[] = {"DEBUG", "INFO", "WARNING", "ERROR"};
     for (int i = 0 ; i < 4 ; i++)
     {
-         if (complaints[i].compare(level) == 0)
-         {
-           (this.*ptrsToFunc[i])(); 
-         }
+        if (complaints[i].compare(level) == 0)
+            (this->*ptrtofunc[i])();
     }
 }
